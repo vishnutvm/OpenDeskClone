@@ -14,6 +14,7 @@ body{
     font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+/* mobile nav viw */
 
 
 /*  nav*/
@@ -77,8 +78,33 @@ i.bx.bxs-cart{
     z-index: 11;
     font-size: 25px;
     display: none;
+    z-index: 999;
     }
  
+
+
+    .show-on-click{
+      display: none;
+    }
+
+    .show .show-on-click{
+        display: block;
+    }
+    .show-on-click a{
+        font-size: 14px;
+    }
+
+
+    .mobile-responsive ul li{
+        position: relative;
+    }
+     .mobile-responsive ul li > i{
+    position: absolute;
+    right: 2rem;
+    top: 0;
+    font-size: 20px;
+
+    }
 
 
     /* home secitions */
