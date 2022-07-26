@@ -1,0 +1,261 @@
+/* preset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+
+/*  nav*/
+.nav-wrap{
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-wrap .left-side{
+    width: 50%;
+}
+.nav-wrap .left-side ul > li img{
+    width: 125px;
+} 
+.nav-wrap ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.nav-wrap .right-side li{
+    padding: 20px 10px;
+}
+i.bx.bxs-cart{
+    font-size: 20px;
+}
+
+/* mobile responsive */
+
+.mobile-responsive{
+    width: 80vw;
+    height: 90vh;
+    position: absolute;
+    background-color: #fff;
+    display: none;
+
+}
+.mobile-responsive ul{
+    list-style: none;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.mobile-responsive ul a{
+    color: gray;
+ }
+
+ .humbger_menu{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: #fff;
+    z-index: 11;
+    font-size: 25px;
+    display: none;
+    }
+ 
+
+
+    /* home secitions */
+
+    .text-white .container h2{
+        font-size: 1.7rem;
+      
+    }
+.bg-image{
+    background-image: url("source/2.jpg");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+/* work sectoin */
+.work-section{background:#f1f1f1;}
+.inner-card-text{background: #f1f1f1;}
+.card-text{font-size: 14px;}
+.text-black{border: none;}
+
+
+/* second section */
+
+.second-section {
+    background-image: url("source/1.1.jpg");
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.second-section .container{
+    padding-left: 10%;
+    padding-top: 14%;
+}
+.third-section{
+    background: #f1f1f1;
+}
+.third-section .card{
+    background: #f1f1f1;
+}
+.third-section p{
+    font-size: 13px;
+    color: #323233;
+}
+
+/* fourth section */
+.fourth-section{
+    
+    background-image:  url("source/3.jpg");
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.fourth-section .btn-white{
+    background-color: hsla(0,0%,100%,.70);
+    color: #323233;
+}
+.fourth-section button:hover{
+    background-color: white;
+}
+.fourth-section{
+    font-size: 20px;
+} 
+
+
+/* fifth section */
+.play-icon{
+    width: 70px;
+}
+.fifth-section{
+    width: 100%;
+    height: 80vh;
+    background-image: url("source/1111.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+.companies img{
+    width: 100px;
+    height: 70px;
+}
+
+/* sixth section */
+
+.sixth-section{
+    background-image: url("source/4.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.sixth-section .btn-white{
+    background-color: hsla(0,0%,100%,.70);
+    color: #323233;
+}
+.sixth-section button:hover{
+    background-color: white;
+    color: #323233;
+}
+.footer .row{
+    justify-content: center;
+}
+.main-footer img{
+    width: 220px;
+}
+.main-footer{
+    height: fit-content;
+    background-color: #69696A;
+}
+.links img{
+    width: 50px;
+    height: 30px;
+
+}
+hr.test123{
+    background-color: #69696A;
+    border-top: 2px dotted white;
+}
+.work-collection .card{
+    border: none;
+}
+.last-button input{
+    background-color: white;
+    height: fit-content;
+    color: gray;
+    padding: 10px 0;
+   
+}
+
+
+
+.last-button input:hover{
+    background-color: #f1f1f1;
+}
+.last-button input:focus{
+    background-color: white;
+}
+.test{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+/* media responsive */
+@media screen and (max-width:950px) {
+        .nav-wrap{
+            display: none;
+        }
+        .humbger_menu{
+            display: block;
+        }
+        
+}
+@media screen and (max-width:768px) {
+    .footerContent div{
+        background-color: #b6b6b6;
+        border: 5px solid #69696a;
+        color: black;
+        font-size: 15px;
+    }
+}
