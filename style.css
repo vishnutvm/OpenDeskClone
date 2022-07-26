@@ -86,6 +86,7 @@ i.bx.bxs-cart{
     .show-on-click{
       display: none;
     }
+  
 
     .show .show-on-click{
         display: block;
